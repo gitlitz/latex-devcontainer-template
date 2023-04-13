@@ -1,41 +1,29 @@
 {
     "dockerFile": "Dockerfile",
     "name": "LaTeX",
-    // "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
             "extensions": [
-				"james-yu.latex-workshop",
-				"vscode-icons-team.vscode-icons"
-			],
+                "james-yu.latex-workshop",
+                "vscode-icons-team.vscode-icons"
+            ],
             "settings": {
                 "files.eol": "\n",
                 "files.autoSave": "afterDelay",
                 "files.autoSaveDelay": 1,
-
                 "editor.wordWrap": "on",
                 "editor.bracketPairColorization.enabled": true,
                 "editor.formatOnSave": true,
-
                 "git.autofetch": true,
                 "git.mergeEditor": true,
-
                 "vsicons.dontShowNewVersionMessage": true,
-
                 "latex-workshop.view.pdf.viewer": "tab",
                 "latex-workshop.linting.chktex.enabled": true,
-                // "latex-workshop.linting.chktex.exec.args": [
-                //     "-wall",
-                //     "-n22",
-                //     "-n30",
-                //     "-e16",
-                //     "-q",
-                //     "-n46"
-                // ],
-                // region latexindent
+                "latex-workshop.linting.chktex.exec.args": [
+                    "-q"
+                ],
                 "latex-workshop.latexindent.enabled": true,
                 "latex-workshop.synctex.afterBuild.enabled": true
-                // endregion
             }
         }
     }
