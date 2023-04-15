@@ -4,10 +4,11 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "james-yu.latex-workshop",
-                "vscode-icons-team.vscode-icons",
-                "hediet.vscode-drawio"
-            ],
+				"james-yu.latex-workshop",
+				"vscode-icons-team.vscode-icons",
+				"hediet.vscode-drawio",
+				"streetsidesoftware.code-spell-checker"
+			],
             "settings": {
                 "files.eol": "\n",
                 "files.autoSave": "afterDelay",
